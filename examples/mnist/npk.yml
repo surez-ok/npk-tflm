@@ -19,7 +19,7 @@ dependencies:
 ## Source Code Management
 codemanage:
   copyfiles:
-    - path:  ["*.cc"]
+    - path:  ["*.cc", "*.h"]
   incdirs:
     - path: ["./"]
   # required latest Nuclei Studio NPK to support excludefiles
